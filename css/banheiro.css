@@ -1,0 +1,29 @@
+.circle {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: center;
+}
+
+.escova{
+	margin-top: 1000px;
+	margin-left: 1650px;
+}
+
+.questions {
+  display: flex;
+}
+.question {
+  display: none;
+  flex-direction: column;
+}
+
+.question.active {
+  display: flex;
+}
+p{
+  text-align: center;
+}
+
